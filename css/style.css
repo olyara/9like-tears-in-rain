@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Proxima-Nova-regular";
+    font-style: normal;
+    src: url("../fonts/proxima-nova.woff2") format("woff2"), url("../fonts/proxima-nova.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "FuturePT-heavy";
+    font-style: normal;
+    src: url("../fonts/futura-pt.woff2") format("woff2"), url("../fonts/futura-pt.ttf") format("ttf");
+}
+
+body {
+    background: #464f54;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer {
+    background-color: #fff;
+    max-width: 1060px;
+    margin: 150px auto 0;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    width: 876px;
+    height: 187px;
+    background-color: #181818;
+    position: absolute;
+    right: -70px;
+    top: -102px;
+    padding: 50px 0 50px 64px;
+    box-sizing: border-box;
+}
+
+.header .declaration-title {
+    font-family: "Proxima-Nova-regular";
+    font-size: 15px;
+    color: #767676;
+    letter-spacing: 6px;
+}
+
+.header .article-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #fefefe;
+    border-bottom: #303030 3px solid;
+    padding-bottom: 12px;
+}
+
+.icons {
+    width: 812px;
+    height: 76px;
+    background-color: #f1b92b;
+    position: absolute;
+    right: -70px;
+    top: 85px;
+}
+
+.icons * {
+    opacity: 0.5;
+}
+
+.icons .color-text {
+    padding: 22px 0 22px 42px;
+}
+
+.icons .size {
+    padding: 26px 0 27px 22px;
+}
+
+.icons .insert-photo {
+    padding: 24px 0 25px 30px;
+}
+
+.icons .bold {
+    padding: 24px 0 26px 32px;
+}
+
+.icons .italic {
+    padding: 27px 0 27px 40px;
+}
+
+.icons .underline {
+    padding: 24px 0 25px 41px;
+}
+
+.icons .align-justify {
+    padding: 24px 0 25px 38px;
+}
+
+.icons .align-left {
+    padding: 24px 0 25px 32px;
+}
+
+.icons .align-center {
+    padding: 24px 0 25px 32px;
+}
+
+.icons .align-right {
+    padding: 24px 0 25px 32px;
+}
+
+.icons img:hover {
+    opacity: 1;
+}
+
+.wrapper {
+    max-width: 993px;
+    padding: 200px 130px 55px 52px;
+    border-left: solid 2px #e8eced;
+    margin: 0 0 0 67px;
+}
+
+.wrapper .author {
+    font-family: "Proxima-Nova-regular";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #b4b4b4;
+    letter-spacing: 4px;
+    /* padding: 200px 0 0 0; */
+}
+
+.wrapper .name {
+    font-family: "FuturePT-heavy";
+    font-size: 78px;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    letter-spacing: 6px;
+    line-height: 73.5px;
+    margin: 50px 0 0 0;
+}
+
+.wrapper .subname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #8f8f8f;
+    line-height: 62.5px;
+}
+
+.wrapper .article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.wrapper .article {
+    margin: 55px 0 0 0;
+}
